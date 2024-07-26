@@ -1,5 +1,8 @@
+[alias]
+uefi-debug = "run --config .cargo/uefi-debug.toml"
+uefi-preview = "run -r --config .cargo/uefi-preview.toml"
+uefi-build = "run -r --config .cargo/uefi-build.toml"
+run = "run --config .cargo/uefi-debug.toml"
+
 [build]
 target = "x86_64-unknown-uefi"
-
-[target.x86_64-unknown-uefi]
-runner = "bash run-uefi.sh"

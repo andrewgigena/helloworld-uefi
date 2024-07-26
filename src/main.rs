@@ -10,8 +10,6 @@ use alloc::string::String;
 use core::fmt::Write;
 use uefi::prelude::*;
 use uefi::proto::console::text::{Color, Output};
-use uefi::proto::console::gop::{FrameBuffer, GraphicsOutput, ModeInfo};
-use uefi::table::boot::ScopedProtocol;
 use uefi::table::runtime::Time;
 
 #[entry]
