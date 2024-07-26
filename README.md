@@ -1,4 +1,4 @@
-# rust-uefi
+# helloworld-uefi
 
 ![Hello World](demo.png)
 
