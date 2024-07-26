@@ -1,5 +1,7 @@
 # rust-uefi
 
+![Hello World](demo.png)
+
 A basic UEFI application written in Rust.
 
 ## Requirements
