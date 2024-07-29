@@ -1,0 +1,7 @@
+[build]
+target = "x86_64-unknown-uefi"
+
+[target.x86_64-unknown-uefi]
+runner = "cargo run -p builder --release -- --mode run"
+
+

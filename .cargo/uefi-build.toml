@@ -1,5 +1,0 @@
-[env]
-CARGO_PROFILE = "release"
-
-[target.x86_64-unknown-uefi]
-runner = "bash build.sh"

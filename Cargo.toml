@@ -1,9 +1,8 @@
-[package]
-name = "helloworld-uefi"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = ["hello-world", "builder"]
+default-members = ["hello-world"]
+resolver = "2"
 
-[dependencies]
-log = "0.4.21"
-uefi = { version = "0.29.0", features = ["alloc", "global_allocator", "panic_handler", "logger", "qemu"] }
-# important: uefi-services was deprecated
+[workspace.metadata]
+workspace-root = { path = "." }
+
